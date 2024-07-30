@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #535971;
+  height: 436px;
+  color: #EFEFEF;
+  width: 100%;
+}
+
+.xdzada {
+  padding: 120px 260px 936px 540px;
+
+}
+
+.xdzada p {
+  margin-top: 18px;
+}
+
+body {
+  background-color: #E5E5E5;
+ 
+}
+
+main {
+  width: 750px ;
+  height: 1584px;
+  background-color: #E6E6F0;
+margin-left: 545px;
+margin-right: 545px;
+border-radius: 8px 8px 0 0;
+position: relative;
+z-index: 1;
+margin-top: -120px;
+}
+
+footer {
+  width: 750px;
+  height: 160px;
+  background-color: #535971;
+  border-radius: 0 0 8px 8px;
+  margin-left: 545px;
+  margin-bottom: 200px;
+}
+
+footer button {
+  border-radius: 20px;
+  width: 608px;
+  height: 56px;
+color: white;
+background-color: #FF5374;
+border: 0;
+}
+
+.button {
+  padding: 52px 71px;
+
+}
+
+button:hover {
+  background-color: #99374a;
+  cursor: pointer;
+}
+
+#line {
+  border-bottom: 1px solid rgb(130, 127, 127);
+  width: 620px;
+  height: 1px;
+  margin-bottom: 36px;
+}
+
+
+.form {
+  padding: 64px 30px 64px 64px;
+  
+}
+
+
+span {
+  color: #C1BCCC;
+}
+
+.names {
+  display: flex;
+  gap: 22px;
+}
+
+.inputs {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form h2 {
+  margin-bottom: 52px;
+}
+
+.form2 {
+  padding: 30px 64px;
+}
+
+.form2 h2 {
+  margin-bottom: 40px;
+
+}
+
+
+.date {
+
+  display: grid;
+  gap: 20px;
+grid-template-areas: "A A"
+                     "B C";
+
+  }
+
+
+
+
+
+
+
+
+  input {
+    min-width: 300px;
+    height: 56px;
+    background-color: #FAFAFC;
+    border-radius: 8px;
+border-color: rgb(221, 221, 221);
+  }
+
+  .form2 input {
+    margin-bottom: 40px;
+  }
+
+
+
+h1 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #4E4958;
+}
+
+
+h2 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #535971;
+  font-size: 24px;
+}
+
+
+h3 {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #535971;
+}
+
+
+button {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.date {
+margin-block: auto;
+}
+
+.date .inputs:nth-child(1){
+  grid-area: A;
+}
+
+
+.date .inputs:nth-child(2){
+  grid-area: B;
+}
+
+.date .inputs:nth-child(3){
+  grid-area: C;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
